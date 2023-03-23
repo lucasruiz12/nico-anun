@@ -1,0 +1,26 @@
+.container-landing {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem;
+    margin: 8rem;
+    position: relative;
+    animation-name: show-img;
+    animation-duration: 5s;
+}
+
+.img-landing {
+    transition: 0.5 all linear;
+}
+
+@keyframes show-img {
+    0% {
+        left: -50%;
+        top: 0px;
+    }
+
+    40% {
+        left: 0px;
+        top: 0px;
+    }
+}

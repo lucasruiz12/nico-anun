@@ -1,4 +1,5 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import Landing from './Pages/Landing';
 import Home from './Pages/Home';
 
 import './App.css';
@@ -8,8 +9,8 @@ function App() {
     // <div className='container' name='app'>
       <BrowserRouter>
         <Routes>
-          <Route exact path='/' element={<Home />} />
-          {/* <Route exact path='/home' element={<Home />} /> */}
+          <Route exact path='/' element={<Landing />} />
+          <Route exact path='/home' element={<Home />} />
           {/* <Route exact path='/about' element={<About />} /> */}
         </Routes>
       </BrowserRouter>
