@@ -3,6 +3,9 @@
     color: darkgray;
     padding: 0.5rem;
     margin-bottom: 3rem;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .nav-items{
@@ -16,7 +19,7 @@
 .item{
     display: flex;
     justify-content: center;
-    padding: 1.5rem;
+    padding: 1rem;
     width: auto;
     text-decoration: none;
     border: solid 0.1rem darkgray;
