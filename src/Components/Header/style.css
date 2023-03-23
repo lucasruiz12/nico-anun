@@ -1,0 +1,36 @@
+.nav-bar{
+    background-color: bisque;
+    color: darkgray;
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    width: auto;
+    text-decoration: none;
+    border: solid 0.1rem darkgray;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.25s all linear;
+}
+
+.item:hover{
+    background-color: beige;
+    transition: 0.25s all linear;
+}
+
+.link-to{
+    color: grey;
+    text-decoration: none;
+}
